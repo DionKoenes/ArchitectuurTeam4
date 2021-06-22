@@ -8,27 +8,27 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: 3d map goud
-    second: {fileID: 2800000, guid: 5ea4be0faa19f3b479fe3884f1aa4978, type: 3}
+    second: {fileID: 2800000, guid: 682de1a2157acaa42a701f54a6ff3086, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Crocodrink
-    second: {fileID: 2800000, guid: 29932acbc3ce75340bc26c6ce5de2a21, type: 3}
+    second: {fileID: 2800000, guid: 26640da0cd14f5848942b1cbee6a3679, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Groen hoedje
-    second: {fileID: 2800000, guid: d913938a59a7f214983c027432c60adb, type: 3}
+    second: {fileID: 2800000, guid: 1808e5735488da8468e4116005216c20, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Sobek Huid
-    second: {fileID: 2800000, guid: 044381932888aba4cbd1ee061f0934e8, type: 3}
+    second: {fileID: 2800000, guid: ae932896c7e6e3346b8368b8d9987207, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: gOUD
-    second: {fileID: 2800000, guid: bd175d6b51558fc448b38364afef1a04, type: 3}
+    second: {fileID: 2800000, guid: 91ac490b557dfde49b8605c9903c315b, type: 3}
   materials:
     materialImportMode: 1
     materialName: 0
