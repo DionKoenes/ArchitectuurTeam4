@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c85c399e1d7bd044bae0ec2aea9aa46d
+guid: 9ce41281917ead041b757ecab2b35e1b
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
@@ -8,12 +8,12 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Donker hout
-    second: {fileID: 2800000, guid: 0f2d6f08d885a0e4a8ac12102ed7ed4b, type: 3}
+    second: {fileID: 2800000, guid: 0d4984d39bbb64c4a9dca65aa44d05b7, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Groen
-    second: {fileID: 2800000, guid: 90f52c66eeac0be4fa7361a59ed3e57a, type: 3}
+    second: {fileID: 2800000, guid: 7a26bcbd3c1d8df42bd76c358a27c686, type: 3}
   materials:
     materialImportMode: 1
     materialName: 0
