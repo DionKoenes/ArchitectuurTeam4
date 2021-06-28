@@ -3,7 +3,12 @@ guid: 71a05805759817843b362ab3f4e9c732
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: BasketBeans
+    second: {fileID: 2800000, guid: f2283fcd7c4931b47ba26928fb204dbc, type: 3}
   materials:
     materialImportMode: 1
     materialName: 0

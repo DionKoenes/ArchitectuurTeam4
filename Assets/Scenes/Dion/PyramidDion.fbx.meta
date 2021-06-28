@@ -3,7 +3,12 @@ guid: 66896e63aac25be40b66af680fa769f9
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PyramideTextureTest
+    second: {fileID: 2800000, guid: 802604338e877e14ab6d32cd15e8657e, type: 3}
   materials:
     materialImportMode: 1
     materialName: 0

@@ -3,7 +3,12 @@ guid: c7ffcc80694f94442a81d29c9d3e9e8a
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DionHuisTexture
+    second: {fileID: 2800000, guid: c977419e8122b224e8a4a284f9dd4d5e, type: 3}
   materials:
     materialImportMode: 1
     materialName: 0
