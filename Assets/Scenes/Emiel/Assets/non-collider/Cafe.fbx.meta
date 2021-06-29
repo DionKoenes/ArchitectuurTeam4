@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Muren_ramen_doeken
-    second: {fileID: 2800000, guid: 068a5b2db4ec95f47b99399c54b2558b, type: 3}
+    second: {fileID: 2800000, guid: d9f2c1e01298fe74794156d37d86cd36, type: 3}
   materials:
     materialImportMode: 1
     materialName: 0

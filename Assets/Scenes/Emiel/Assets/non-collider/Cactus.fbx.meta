@@ -8,12 +8,12 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Cactus_needle_texture
-    second: {fileID: 2800000, guid: 86aa716fbcb6c70478ccc56249163167, type: 3}
+    second: {fileID: 2800000, guid: 303e84c83390073488afbfa0362b752b, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Cactus_texture
-    second: {fileID: 2800000, guid: c7647c24d930ad24aaf17216c7353dfc, type: 3}
+    second: {fileID: 2800000, guid: 265269d67ab448049aea2fac16d99a36, type: 3}
   materials:
     materialImportMode: 1
     materialName: 0
