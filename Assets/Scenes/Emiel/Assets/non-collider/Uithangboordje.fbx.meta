@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Uithangboordje
-    second: {fileID: 2800000, guid: ee9e13a5db5cbfc4eadaf8b65573dea2, type: 3}
+    second: {fileID: 2800000, guid: 7a85112099a0e2341b6584e1ecfa790d, type: 3}
   materials:
     materialImportMode: 1
     materialName: 0
