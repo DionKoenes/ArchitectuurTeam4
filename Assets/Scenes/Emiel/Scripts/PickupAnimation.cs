@@ -9,7 +9,11 @@ public class PickupAnimation : MonoBehaviour
     [SerializeField]
     private float speed = 1;
     [SerializeField]
-    private float turnSpeed = 1;
+    private float turnSpeedX = 1f;
+    [SerializeField]
+    private float turnSpeedY = 1f;
+    [SerializeField]
+    private float turnSpeedZ = 1f;
     private Vector3 startPosition;
 
     void Start()
@@ -22,6 +26,6 @@ public class PickupAnimation : MonoBehaviour
     {
         transform.position = startPosition + new Vector3(0.0f, Mathf.Sin(Time.time * speed) * amplitude, 0.0f);
 
-        transform.Rotate(0, turnSpeed, 0);
+        transform.Rotate(turnSpeedX, turnSpeedY, turnSpeedZ);
     }
 }

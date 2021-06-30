@@ -11,7 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Dion/A_Menu.unity
     guid: 0d768d998cfbb3546ac05aa620592f15
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Dion/A_Game.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Main.unity
+    guid: e5f4c256346c0d544b7f7552459f8f55
   m_configObjects: {}

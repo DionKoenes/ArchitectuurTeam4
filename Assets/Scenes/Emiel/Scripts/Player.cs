@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
@@ -24,6 +25,11 @@ public class Player : MonoBehaviour
     //Pickup
     public int keyFragments = 0;
     public AudioSource pickupSound;
+
+    public Camera playerCam;
+    private GameObject endgameText;
+    private GameObject begingameText;
+    private GameObject finishedText;
 
     public void PlayerMovement()
     {
@@ -58,13 +64,19 @@ public class Player : MonoBehaviour
     
     void Start()
     {
-    
+        endgameText = GameObject.Find("Endgame_text");
+        begingameText = GameObject.Find("Begingame_text");
+        finishedText = GameObject.Find("Finished_text");
+        begingameText.SetActive(false);
+        endgameText.SetActive(false);
+        finishedText.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
         PlayerMovement();
+        FinishGame();
     }
     private void OnTriggerEnter(Collider col)
     {
@@ -74,5 +86,33 @@ public class Player : MonoBehaviour
             Destroy(col.gameObject);
             pickupSound.Play();
         }
+    }
+    public void FinishGame()
+    {
+        RaycastHit ray;
+        if (Physics.Raycast(playerCam.transform.position, playerCam.transform.forward, out ray, 2))
+        {
+            if (ray.transform.CompareTag("EndGame"))
+            {
+                if (keyFragments == 5)
+                {
+                    endgameText.SetActive(true);
+                    if (Input.GetKeyDown(KeyCode.E))
+                    {
+                        finishedText.SetActive(true);
+                    }
+
+                }
+                if (keyFragments < 5)
+                {
+                    begingameText.SetActive(true);
+                }
+            }
+        }
+        if (ray.transform == null || ray.transform.tag != "EndGame")
+        {
+            endgameText.SetActive(false);
+            begingameText.SetActive(false);
+       }
     }
 }

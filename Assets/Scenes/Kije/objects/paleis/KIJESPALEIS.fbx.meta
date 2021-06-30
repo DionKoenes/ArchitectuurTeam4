@@ -3,7 +3,87 @@ guid: 70db7e1e7f3977a418a04090228c3e36
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BoomSTaM
+    second: {fileID: 2100000, guid: 7b86aaec4a36dfa4aab60455764ff05c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GLASS
+    second: {fileID: 2100000, guid: 65bd05b6bb2542643a023edb85492dbc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GOUD
+    second: {fileID: 2100000, guid: 97fc1fbaa083e2c43aed664044a3687c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GOUD.003
+    second: {fileID: 2100000, guid: fbf3790f9ea9d6b46841e5161e993cd9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GRASS_BOOM
+    second: {fileID: 2100000, guid: a8b17eb7a9d281546a377a46f31d5340, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Garden
+    second: {fileID: 2100000, guid: c811e436b29f0324e906eab96df1b34c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Kroon Sobek
+    second: {fileID: 2100000, guid: 99cf70e987f8753478ab46566e186bf1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.014
+    second: {fileID: 2100000, guid: c0adc4b6c78d5cd45a214213610be6e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.015
+    second: {fileID: 2100000, guid: 5d1635d1af9bc4848ae5cfc80bb313fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.016
+    second: {fileID: 2100000, guid: d60720de219fe7f4b8afb7406d4a85f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.017
+    second: {fileID: 2100000, guid: f85d8a9bff3472e48961ff18cc33c5ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ROOD
+    second: {fileID: 2100000, guid: e7ed6cc781ace11409f7a8910ad6c4ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: STEEN
+    second: {fileID: 2100000, guid: e650f53249e73c54597c2b870d4164bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Strand
+    second: {fileID: 2100000, guid: da404720efd75e44095dd2c8708d5a30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WATER LICHT
+    second: {fileID: 2100000, guid: d03875cd630296649929fe4a388d83e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: water
+    second: {fileID: 2100000, guid: 5512691175831b24b9f6380bd2ec86a0, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
